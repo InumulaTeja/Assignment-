@@ -12,29 +12,21 @@ char op;
 
     scanf(" %c",&op);
 
-float sum=a+b;
-
-float sub=a-b;
-
-float mul=a*b;
-
-float div=a/b;
-
 switch(op){
 
-case '+' :printf("sum is %f",sum);
+case '+' :printf("sum is %f",a+b);
 
 break;
 
-case '-':printf("sub is %f",sub);
+case '-':printf("sub is %f",a-b);
 
 break;
 
-case '*' :printf("mul is %f",mul);
+case '*' :printf("mul is %f",a*b);
 
 break;
 
-case '/' :printf("div is %f",div);
+case '/' :printf("div is %f",a/b);
 
 break;
 
