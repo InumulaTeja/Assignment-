@@ -5,7 +5,7 @@ int main()
    char s1[30];
    int l=0,d=0;
    char *ptr;
-   ptr=&s1[0];
+   ptr=s1[0];
    printf("enter the string:");
    gets(s1);
  
